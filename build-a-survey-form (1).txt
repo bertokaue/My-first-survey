@@ -1,0 +1,178 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html>
+  <head lang="em">
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="styles.css">
+    <h1 id="title">My formulary</h1>
+    <p class="description" id="description">This is my first html code being made exclusive by me (with a good help of FreecodeCamp)!<br>
+      I will make a survey to apply all my knowledge and see how does it works. Hope I and everyone enjoy it!</p>
+      <hr>
+  </head>
+  <body>
+    <h2> Let's begin!</h2>
+    <form id="survey-form">
+      <fieldset class="first">
+        <h3>Type your details:</h3>
+          <br>
+
+       <label for="name" id="name-label">Name:<input class="top" id="name" type="text" placeholder="Full Name" required></label></input>
+        <br>
+        <label for="email" id="email-label">Email:<input class="top" id="email" type="email" placeholder="Email" required></label></input>
+        <br>
+        <label for="number" id="number-label">Age:<input class="top" id="number" type="number" placeholder="Age (12 Yo+)" min="12" max="99"></label></input>
+        </fieldset>
+        <br>
+        <fieldset>
+          <h3>Check it!</h3>
+        <select id="dropdown" class="dropdown">
+          <option>(Select your option)
+          <option>Single
+          <option>Married
+          <option>Upset  
+         </select>
+         <br>          
+        <input type="radio" name="thinking" id="radio" class="thinking" value="thinking">Happy :)</input>
+        <input type="radio" name="thinking" id="radio" class="thinking" value="thinking">Sad :(</input>
+        </fieldset>
+        <br>
+        <fieldset>
+        <h3> Please, check out how did you feel today:</h3><hr class="hr2"><br>
+                  
+          <img src="https://www.traveller.com.au/content/dam/images/g/u/n/q/h/0/image.related.articleLeadwide.620x349.gunpvd.png/1488330286332.png" alt="A hug from a lovely animal."><br>        
+          
+            <input type="checkbox" name="checkbox" class="checkbox" value="happy"> Very happy :D</input><br>
+        <input type="checkbox" name="checkbox" class="checkbox" value="moderate"> Moderate happy :)</input><br>  
+        <input type="checkbox" name="checkbox" class="checkbox" value="soso"> Not too bad :l</input><br>
+        <input type="checkbox" name="checkbox" class="checkbox" value="bad"></input> Bad :(<br>
+        <input type="checkbox" name="checkbox" class="checkbox" value="terrible"> Terrible :C</input></div><br>
+        </fieldset>
+      <textarea placeholder="Please left any comments as you want. We will be glad to help you!"></textarea><br>
+      <button id="submit" type="submit">Send it</button>
+    </form>
+    <hr>
+    <footer>
+      <p>Thank you for sharing your life with us.</p>
+      <p>With care...</p>
+      <p>K.Berto</p>
+      </footer>
+  </body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+html { 
+  background-color: #DFD9CA;
+  margin: 0;
+  font-family: calibri;  
+  height: auto;
+  width: auto;
+  border: 3px solid #588A87;
+}
+
+body { 
+  width: 700px;
+  height: 1200px;
+  max-width: auto;
+}
+
+h1, .description, hr, h2 { 
+  text-align: center;
+  margin: 20px auto;  
+}
+
+.description, h2 { 
+  padding-bottom: 10px;
+}
+
+fieldset { 
+  padding: 10 20 10 15;
+  border: 2px solid #588A87;
+  text-align: left;
+  min-width: auto;
+  max-width: auto;
+  border-radius: 10px;
+  box-shadow: .2rem .2rem 0 0 #588A87;
+}
+
+h3 { 
+  text-align: center;
+  margin: auto;
+}
+
+.top { 
+  width: 100%;
+  height: 28px;
+  margin: 1px auto;
+  padding-left: 7px;
+  
+}
+
+select { 
+  width: 150px;
+  height: 28px;
+  padding-left: 7px;
+  text-align: center;
+  margin-left: 40%; /*How to centralize the center of the box???*/
+  margin-top: 5px;
+  float: auto;
+
+}
+
+.thinking { 
+ margin: auto 7;
+ margin-left: 190px;
+ margin-top: 10px;
+}
+
+img {
+  float: right;
+  width: 400px;
+  max-width: 400px;
+  padding: 5px;
+}
+
+.hr2 { 
+  margin-bottom: 0px;
+}
+
+.checkbox { 
+  font-size: 20px;
+  margin: 12px;
+  margin-top: 15px;
+}
+
+textarea { 
+  width: 99%;
+  height: 56px;
+  margin: 10px 4px;
+  padding-top: 5px;
+  padding-left: 7px;
+  text-align: left;
+  border: 2px solid #588A87;
+  border-radius: 10px;
+  box-shadow: .2rem .2rem 0 0 #588A87;
+}
+
+button { 
+   width: 50%;
+   height: 25px;
+   margin-left: 25%;
+   margin-top: 20px;
+   border-radius: 90px
+}
+
+footer { 
+  font-style: italic;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+
+
+** end of undefined **
+
